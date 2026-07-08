@@ -8,7 +8,7 @@ To practice using HTML and CSS in the creation of a personalized project, and fa
 
 **Current Files:**<br>
 - <a href="/index.html">index.html</a> – main landing page (Default)
-<!--- <a href="/about.html">about.html</a> – profile page (About)
+  <a href="/about.html">about.html</a> – profile page (About)
 - <a href="/styles.css">styles.css</a> – style sheet for profile page -->
 
 ## Technologies Used

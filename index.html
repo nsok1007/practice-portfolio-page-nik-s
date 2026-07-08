@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NSOK.DEV</title>
+    <link rel="stylesheet" type=text/css href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
+
 <body>
      <!--Start of Nav-->
     <nav class="navbar">
-         <div>
              <ul class="nav-left">
                   <li><a href="#header-section" class="header-nav">NSOK.DEV</a></li>
             </ul>
-        </div>
-        <div>
             <ul class="nav-right">
                 <li><a href="#about-section">About</a></li>
                 <li><a href="#skills-section">Skills</a></li>
                 <li><a href="#contact-section">Contact</a></li>
             </ul>
-        </div>
     </nav>
     <!--End of Nav-->
     <!--Start of Header Section-->
     <section id="header-section" class="header-section">
         <header>
+            <img src="images/kraken-digital.png" width="200,200" alt="Sky blue kraken"> <!--&w=500 separates i and d-->
             <h1>Hello! I am Nik</h1>
             <h2><i>A digital designer and developer</i></h2> <!--use css to make it h3 size-->
         </header>
@@ -32,16 +32,13 @@
     <!--End of Header Section-->
     <!--Start of About Section-->
     <section id="about-section" class="about-section">
-        <div>
             <h2>About</h2>
             <p class="headline"> Based in the greater St. Louis area, Nik Sokol is a digital designer and developer striving to help others through the power of artistic expression and digital innovation. They are passionate about the intersection of mental health, design, and technology. 
             <br><br>Graduating from Clark University with a bachelor's in psychology and a minor in graphic design, they are currently working on learning the skills to pivot their professional goals toward web design.</p>
-        </div>
     </section>
-            <!--End of About Section-->
-             <!--Skill Proficiency Table-->
+    <!--End of About Section-->
+    <!--Skill Proficiency Table-->
     <section id="skill-table" class="skill-table">
-        <div>
             <h2>My Skills</h2>
             <table border="0">
                 <tr>
@@ -61,13 +58,11 @@
                     <td>Intermediate</td>
                 </tr>
             </table>
-        </div>
     </section>
  
     <!--Contact Form-->
     <section id="contact-section" class="contact-section">
-        <div>
-            <h3>Contact</h3>
+            <h2>Contact</h2>
             <form action="/submit" method="get">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" placeholder="Your name..." required> <br><br>
@@ -77,12 +72,17 @@
                 <textarea id="message" name="message" rows="5" cols="16" placeholder="Your message..."></textarea><br><br>
                 <input type="submit" value="Submit">
             </form>
-        </div>
     </section>
+
+    <!--Footer-->
     <footer>
-        <a href="https://www.github.com/nsok1007"><i class="fa fa-github-alt"></i></a>
-        <a href="mailto:sokoln12@gmail.com"><i class="fa fa-envelope-o"></i></a>
-        <p class="copyright">Designed by Nik Sokol © 2026 <a href="https://nsokdesigns.com">NSOK DESIGNS</a> | All rights reserved.</p>
+        <p class="copyright">Designed by Nik Sokol © 2026 | All rights reserved.</p>
+        <address>
+            Website: <a href="https://nsokdesigns.com" target="_blank" rel="noopener noreferrer">NSOK DESIGNS</a> &bull;
+            Phone: <a href="tel: 1401-5231869" target="_blank" rel="noopener noreferrer">401-523-1869</a> &bull;
+            Email: <a href="mailto:sokoln12@gmail.com" target="_blank">sokoln12@gmail.com</a> &bull;
+            GitHub: <a href="https://www.github.com/nsok1007" target="_blank">NSOK1007</a>
+        </address>
         </footer>    
 </body>
 </html>
